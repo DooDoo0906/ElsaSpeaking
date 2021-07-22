@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://i1.wp.com/blog.elsaspeak.com/wp-content/uploads/2016/03/cropped-elsa-logo-icon-rgb-512x512_360.png" type="image/icon type">
+    <title>Elsa Speaking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4f97040111.js" crossorigin="anonymous"></script>
+    <script src="Test.js"></script>
+    <link rel="stylesheet" href="Test.css">
+</head>
+
+<body>
+
+    <div class="container" style="margin-top: 2%;">
+        <section id="maintitle" class="row shadow-sm bg-white ">
+            <div class="col-12 ">
+                <p><img src="https://i1.wp.com/blog.elsaspeak.com/wp-content/uploads/2016/03/cropped-elsa-logo-icon-rgb-512x512_360.png" width="4%"> ELSA
+                </p>
+            </div>
+        </section>
+        <section id="adver" class="row mt-2">
+            <div class="col-1"><img id="vector1" src="img/adleft.jpg" height="30%">
+            </div>
+            <div class="col-5 mt-5" style="text-align: center;">
+                <p>APP LUYỆN NÓI </p>
+                <p>
+                    & GIAO TIẾP TIẾNG ANH THỜI 4.0
+                </p>
+                <p style="color: #06BAE8; font-size: 85%;">
+                    Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!
+                </p>
+                <a style=" font-family:Helvetica; font-weight: bold;" href="#form" class="btn btn-primary btn-lg active  mt-3 mb-5" onmouseover="change()" onmouseout="reset()">
+                    Đăng ký ngay
+                </a>
+            </div>
+            <div class="col-6 mt-5"><img style="position: absolute; bottom: 0; right: 0;" src="img/iphoneAd.jpg" width="80%" height="120%">
+            </div>
+
+        </section>
+        <section id="form" class="row" style="background-image: url('img/bg2.jpg');background-size: 300px 100px;">
+
+            <div class="col-6 mt-5 mb-5">
+                <div id="title">
+                    <b>CÙNG ỨNG DỤNG ELSA</b><br>
+                    <b>NÓI TIẾNG ANH "THẢ GA" </b>
+                </div>
+                <form id="regisform" name="myform">
+                    <div class="container">
+                        <div class="row">
+                            <p class="col-12 mt-2" style="color:#06BAE8; "><i class="far fa-user"></i> Họ tên *</p>
+                        </div>
+                        <div class="row">
+                            <input class="col-11 ml-3 inform" type="text" name="fname">
+
+                        </div>
+                        <div class="row">
+                            <p class="col-12 ml-3" id="name"></p>
+                        </div>
+                        <div class="row">
+                            <p class="col-12 mt-2" style="color:#06BAE8; "><i class="fas fa-phone-alt"></i> Số điện thoại *</p>
+                        </div>
+                        <div class="row">
+                            <input class="col-11 ml-3 inform" type="text" name="phone">
+                        </div>
+                        <div class="row">
+                            <p class="col-12 ml-3" id="phonenum"></p>
+                        </div>
+                        <div class="row">
+                            <p class="col-12 mt-2" style="color:#06BAE8; "><i class="fas fa-envelope"></i> Email *</p>
+                        </div>
+                        <div class="row">
+                            <input class="col-11 ml-3 inform" type="text" name="email">
+
+                        </div>
+                        <div class="row">
+                            <p class="col-12 ml-3" id="emai"></p>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-6">
+
+                                <input type="radio" id="1year" name="combo" value="980.000VND" onclick="check(this.value)">
+                                <label for="1year">Gói học 1 năm</label>
+                            </div>
+                            <div class="col-6 ">
+                                <input class="ml-5" type="radio" id="fever" name="combo" value="1.995.000VND" onclick="check(this.value)">
+                                <label for="fever">Gói học trọn đời</label><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p class="col-12 ml-3" id="com"></p>
+                        </div>
+                        <p id="price"></p>
+
+                        <button style="font-family: Helvetica;font-weight: bold;" type="button" class="btn btn-primary btn-lg shadow-lg mt-3 mb-5" onclick="vali(document.myform.phone, document.myform.email, document.myform.fname,document.myform.combo)">
+                            GỬI ĐĂNG KÝ
+                        </button>
+
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-6 mb-5">
+                <img style="position: absolute; top: 0; right: 0;" src="img/elsaip.jpg" width="100%" height="680em">
+            </div>
+
+        </section>
+        <section id="out" class="row">
+            <h1 class="col-12 mt-5" style="text-align: center; font-size: 250%; ">CÁ NHÂN HÓA LỘ TRÌNH HỌC</h1>
+            <p class="col-12 mt-2" style="text-align: center; font-size: 120%;">Làm bài kiểm tra đầu vào với ELSA trong 5 phút và bạn sẽ có:</p>
+            <div id="ippic" class="row mx-2">
+                <div class="col-3">
+                    <img src="img/iphone1.jpg">
+                    <p> Trí tuệ nhân tạo trả về bạn số điểm<b style="color:#06BAE8;"> "CHUẨN BẢN XỨ"</b></p>
+
+                </div>
+                <div class="col-3 ">
+                    <img src="img/iphone2.jpg">
+                    <p><b style="color:#06BAE8;">NGAY LẬP TỨC,</b> bạn biết mình phát âm sai ở đâu qua những gam màu trực quan sinh động </p>
+                </div>
+                <div class="col-3 ">
+                    <img src="img/iphone3.jpg">
+                    <p><b style="color:#06BAE8;">CÔNG NGHỆ NHẬN DIỆN</b> giọng nói chuẩn đến từng âm tiết</p>
+                </div>
+                <div class="col-3 ">
+                    <img src="img/iphone4.jpg">
+                    <p> ELSA sẽ <b style="color:#06BAE8;">LẬP LỘ TRÌNH HỌC CÁ NHÂN HÓA</b> dựa trên các chỉ số bài kiểm tra đầu vào của bạn</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <a style="font-family: Helvetica;" href="#form" class="btn btn-primary btn-lg active shadow-lg mt-3 mb-5" role="button" aria-pressed="true" onmouseover="change()" onmouseout="reset()">
+                    <b>Đăng ký ngay</b>
+                </a>
+            </div>
+
+        </section>
+
+</body>
+
+</html>

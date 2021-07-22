@@ -1,0 +1,89 @@
+p {
+    font-family: BrownVN;
+    font-size: 150%;
+}
+
+#adver p {
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.btn {
+    background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+    border-radius: 10px;
+    width: 50%;
+    font-family: BrownVN;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+}
+
+button:last-child {
+    width: 100%;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+}
+
+#title {
+    background: linear-gradient(81.84deg, #49DCE1 1.09%, #39A3FB 96.86%);
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    margin-left: 20%;
+    text-align: center;
+}
+
+#title b {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+#regisform {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 8px rgba(12, 36, 64, 0.3);
+    border-radius: 0px 0px 15px 15px;
+    margin-left: 20%;
+}
+
+#regisform p {
+    color: red;
+    font-family: Helvetica;
+}
+
+.inform {
+    background: #FFFFFF;
+    border: 2px solid #57B3FF;
+    box-sizing: border-box;
+}
+
+#maintitle p {
+    text-align: center;
+    font-family: Lucida Sans Unicode;
+    margin-top: 2%;
+}
+
+#vector1 {
+    position: absolute;
+    left: 0;
+    margin-top: 8em;
+}
+
+#ippic p {
+    font-size: 134%;
+    margin-top: 10%;
+}
+
+#out p {
+    font-family: Helvetica;
+    font-size: 120%;
+}
+
+#out a {
+    background: linear-gradient(80.25deg, #10b584 20.10%, #55b7e0 68.19%);
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 50px;
+    font-size: 250%;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+}
